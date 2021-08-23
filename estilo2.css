@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	background: #ddd;
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+.triangulo{
+     width: 0;
+     height: 0;
+     border-right: 100px solid transparent;
+     border-top: 100px solid transparent;
+     border-left: 100px solid transparent;
+     border-bottom: 100px solid #f0ad4e;
+
+}
+
+.cuadrado {
+     width: 100px; 
+     height: 100px; 
+     background: #428bca;
+
+}
+
+.circulo {
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+
+}
+
+.rombo {
+     width: 100px; 
+     height: 100px; 
+     border: 3px solid #ff0000; 
+     background: #ff0000;
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     transform: rotate(45deg);
+	
+}
+                
+.triangulo:nth-child(1){
+	transform: translateX(200px)
+}
+.triangulo:nth-child(1):hover{	
+	transform: translateX(300px);
+	transform-origin: center;
+	
+}
+
+
+.cuadrado:nth-child(2){
+	transform:rotate(20deg) 
+}
+.cuadrado:nth-child(2):hover{
+	transform:translateX(50px);
+	transform-origin: center;
+	
+}
+
+
+.circulo:nth-child(3){
+	display: block;
+	transform: translateX(500px) scale(1)
+	
+}
+.circulo:nth-child(3):hover{
+	 transform: scale(2);
+}
+
+
+.rombo:nth-child(4){
+	transform: skewX(20deg) translateX(100px)
+	
+}
+.rombo:nth-child(4):hover{
+	 transform: skewX(30deg)
+	
+}
+
+
+
+
+
+
