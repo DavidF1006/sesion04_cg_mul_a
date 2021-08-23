@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	background: #ddd;
+}
+
+.contenedor{
+	display: flex;
+	justify-content: center;
+}
+
+.caja{
+	margin: 150px 15px;
+	width:
+	margin: 150px 15px;
+	width: 150px;
+	height: 150px;
+	background: crimson;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150px;
+	transition: all 1s;
+}
+                
+.caja:nth-child(1){
+	transform: translate( -50px, 100px)
+}
+
+.caja:nth-child(2){
+	transform:rotate(50deg)
+}
+
+.caja:nth-child(3){
+	transform: scale(0.5,0.5)
+}
+
+.caja:nth-child(4){
+	 transform: skewX(20deg)
+}
+
+.caja:nth-child(1):hover{
+	 
+}
+
+
+

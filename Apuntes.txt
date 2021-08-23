@@ -1,0 +1,4 @@
+Transformaciones: transform: translateX(100px) translateY(-100px) translate(50px, 50px)
+Rotaciones: transform:rotate(50deg);
+Escalar: transform: scaleX(2) scaleY(4) scaleY(2,2)
+Distorcionar: transform: skewX(20deg) skewY(40deg) skewY(40deg, 50deg)
